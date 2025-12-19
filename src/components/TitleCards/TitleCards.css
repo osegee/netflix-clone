@@ -4,6 +4,8 @@
 }
 .titlecards h2 {
   margin-bottom: 8px;
+  font-weight: 500;
+  font-size: 1.2rem;
 }
 
 .card_list {
@@ -19,6 +21,11 @@
   border-radius: 4px;
   cursor: pointer;
 }
+.card_list img:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
 .card_list .card {
   position: relative;
 }
